@@ -1,0 +1,17 @@
+.pc(@rules) {
+    @media (min-width:1025px) {
+        @rules();
+    }
+}
+
+.tablet(@rules) {
+    @media (min-width:769px) and (max-width:1024px) {
+        @rules();
+    }
+}
+
+.mobile(@rules) {
+    @media (max-width:768px) {
+        @rules();
+    }
+}
